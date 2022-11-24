@@ -21,13 +21,13 @@ Resource - [link](https://youtu.be/MTRtusym-2s)
 - Create a Spring boot application with web, postgresql and jpa dependencies
 
 - Add configuration in application.properties
-```
-spring.jpa.hibernate.ddl-auto=update
-spring.datasource.url=jdbc:postgresql://localhost:5432/aliens
-spring.datasource.username=admin
-spring.datasource.password=123456
-spring.jpa.database-platform = org.hibernate.dialect.PostgreSQLDialect
-```
+  ```
+  spring.jpa.hibernate.ddl-auto=update
+  spring.datasource.url=jdbc:postgresql://localhost:5432/aliens
+  spring.datasource.username=admin
+  spring.datasource.password=123456
+  spring.jpa.database-platform = org.hibernate.dialect.PostgreSQLDialect
+  ```
 
 - Create Model
 - Create Controller
