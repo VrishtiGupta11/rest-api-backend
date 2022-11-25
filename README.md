@@ -34,6 +34,6 @@ Resource - [link](https://youtu.be/MTRtusym-2s)
 - Create Controller
 
 - To run postgresql commands in cmd
-```
-psql -U username mydatabase
-```
+  ```
+  psql -U username mydatabase
+  ```
