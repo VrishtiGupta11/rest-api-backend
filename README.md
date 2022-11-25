@@ -30,4 +30,10 @@ Resource - [link](https://youtu.be/MTRtusym-2s)
   ```
 
 - Create Model
+
 - Create Controller
+
+- To run postgresql commands in cmd
+```
+psql -U username mydatabase
+```
