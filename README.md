@@ -37,3 +37,5 @@ Resource - [link](https://youtu.be/MTRtusym-2s)
   ```
   psql -U username mydatabase
   ```
+- Join Table
+  Resource - [https://en.wikibooks.org/wiki/Java_Persistence/ElementCollection](https://en.wikibooks.org/wiki/Java_Persistence/ElementCollection)
