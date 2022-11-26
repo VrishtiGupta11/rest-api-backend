@@ -31,11 +31,24 @@ Resource - [https://youtu.be/MTRtusym-2s](https://youtu.be/MTRtusym-2s)
 
 - Create Model
 
+- Create an interface which extends JpaRepository  
+  We can also write customized query over here like
+  ```
+  // we can use findBy and getBy and then column name all in camel casing
+  List<Alien> findByTech(String tech);
+	List<Alien> findByAidGreaterThan(int aid);
+  
+  // To write our own query
+  @Query("select a from Alien a where tech=?1 order by a.aname")
+	List<Alien> findByTechSorted(String tech);
+  ```
+
 - Create Controller
 
 - To run postgresql commands in cmd
   ```
   psql -U username mydatabase
   ```
+  
 - Join Table
   Resource - [https://en.wikibooks.org/wiki/Java_Persistence/ElementCollection](https://en.wikibooks.org/wiki/Java_Persistence/ElementCollection)
