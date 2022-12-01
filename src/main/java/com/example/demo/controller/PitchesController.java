@@ -66,6 +66,28 @@ public class PitchesController {
 		return responseMap;
 	}
 	
+	@GetMapping(value = "/")
+	public List<Map<String, Object>> getPitchesRoot() {
+		List<Map<String, Object>> entres = repo.getEntrepreneurs();
+		List<Map<String, Object>> pitches = new ArrayList<>();
+
+		for(Map<String, Object> e : entres) {
+			List<Map<String, Object>> invest = repo.getInvestorsById((int)e.get("id"));
+			Map<String, Object> mp = new HashMap<>(e);
+			mp.put("id", Integer.toString((int)mp.get("id")));
+			mp.put("pitchTitle", mp.get("pitchtitle"));
+			mp.remove("pitchtitle");
+			mp.put("pitchIdea", mp.get("pitchidea"));
+			mp.remove("pitchidea");
+			mp.put("askAmount", mp.get("askamount"));
+			mp.remove("askamount");
+			mp.put("offers", invest);
+			pitches.add(mp);
+		}
+
+		return pitches;
+	}
+	
 	@GetMapping(value = "/pitches")
 	public List<Map<String, Object>> getPitches() {
 		List<Map<String, Object>> entres = repo.getEntrepreneurs();
