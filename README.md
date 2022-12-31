@@ -56,3 +56,6 @@ Resource - [https://youtu.be/MTRtusym-2s](https://youtu.be/MTRtusym-2s)
 - Deployment
   Resource - [Video](https://www.youtube.com/watch?v=-Ih_ky5HMEA&ab_channel=TakiEddineRahal)  
   [https://github.com/TakiRahal/spring-boot-render](https://github.com/TakiRahal/spring-boot-render)
+  
+- Resources to explore more on  
+  [Flutter + Spring boot](https://www.youtube.com/watch?v=b_xlU7xvNKA&ab_channel=PXP)
