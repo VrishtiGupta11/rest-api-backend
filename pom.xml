@@ -49,10 +49,9 @@
         <version>2.7.0</version>  
         <configuration> 
           <subscriptionId>e76237f4-0ca2-44a0-9ecf-062eebde2023</subscriptionId>  
-          <resourceGroup>REST-API</resourceGroup>  
-          <appName>xharktank-backend</appName>  
-          <pricingTier>f1</pricingTier>  
-          <region>eastus</region>  
+          <resourceGroup>restapi</resourceGroup>  
+          <appName>restapi-xharktank</appName>  
+          <deploymentType>RUN_FROM_BLOB</deploymentType>
           <runtime> 
             <os>Linux</os>  
             <webContainer>Java SE</webContainer>  
@@ -68,7 +67,8 @@
                 </includes> 
               </resource> 
             </resources> 
-          </deployment>  
+          </deployment>
+          <pricingTier>F1</pricingTier>  
         </configuration> 
       </plugin> 
     </plugins> 
