@@ -58,4 +58,4 @@ Resource - [https://youtu.be/MTRtusym-2s](https://youtu.be/MTRtusym-2s)
   [https://github.com/TakiRahal/spring-boot-render](https://github.com/TakiRahal/spring-boot-render)
   
 - Resources to explore more on  
-  [Flutter + Spring boot](https://www.youtube.com/watch?v=b_xlU7xvNKA&ab_channel=PXP)
+  [Flutter + Spring boot](https://www.youtube.com/watch?v=k1VB9YY2Qk8&ab_channel=PXP)
