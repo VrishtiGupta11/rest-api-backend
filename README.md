@@ -52,3 +52,7 @@ Resource - [https://youtu.be/MTRtusym-2s](https://youtu.be/MTRtusym-2s)
   
 - Join Table
   Resource - [https://en.wikibooks.org/wiki/Java_Persistence/ElementCollection](https://en.wikibooks.org/wiki/Java_Persistence/ElementCollection)
+
+- Deploy
+  Resource - [https://www.youtube.com/watch?v=-Ih_ky5HMEA&ab_channel=TakiEddineRahal](Video)  
+  [https://github.com/TakiRahal/spring-boot-render](https://github.com/TakiRahal/spring-boot-render)
